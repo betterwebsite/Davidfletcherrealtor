@@ -35,7 +35,7 @@
   }
   #hero-1950 .cs-title {
     /* 39px - 61px */
-    font-size: clamp(3.4375rem, 5vw, 3.8125rem);
+    font-size: clamp(2.4375rem, 5vw, 3.8125rem);
     margin-bottom: 1.75rem;
     color: #fff;
   }
@@ -94,7 +94,7 @@
     content: '';
     width: 100%;
     height: 100%;
-    background: linear-gradient(180deg, rgba(26, 26, 26, 0.86) 10.79%, rgba(26, 26, 26, 0) 48.32%, rgba(26, 26, 26, 0.86) 82.84%);
+    background: linear-gradient(180deg, rgba(26, 26, 26, 0.1) 10.79%, rgba(26, 26, 26, 0) 48.32%, rgba(26, 26, 26, 0.157) 82.84%);
     /* prevents the cursor from interacting with it */
     pointer-events: none;
     display: block;
@@ -123,7 +123,6 @@
   }
   #hero-1950 .cs-title {
     width: 55%;
-    font-size: clamp(6.4375rem, 5vw, 3.8125rem);
     max-width: 39.375rem;
     margin-bottom: 0;
     /* prevents flexbox from squishing it */
@@ -135,14 +134,8 @@
 }
 /* Large Desktop Parallax Effect - 100px */
 @media only screen and (min-width: 100rem) {
-  #hero-1950 .cs-title {
-    /* 39px - 61px */
-    font-size: clamp(6.4375rem, 5vw, 3.8125rem);
-    margin-bottom: 1.75rem;
-    color: #fff;
-  }
   #hero-1950 .cs-background {
-    background: url("/assets/images/david.jpg");
+    background: url("/assets/images/David.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
